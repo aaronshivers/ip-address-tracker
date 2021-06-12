@@ -1,0 +1,17 @@
+@import "./style-settings";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size;
+}
+
+body {
+  font-size: $font-body;
+  font-family: $font-family;
+  color: $color-very-dark-gray;
+}
