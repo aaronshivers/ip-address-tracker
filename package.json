@@ -1,7 +1,6 @@
 {
   "name": "ip-address-tracker-master",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "aaronshivers <42848750+aaronshivers@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
