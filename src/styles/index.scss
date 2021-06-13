@@ -1,20 +1,21 @@
-@import "./style-settings";
+@import '../../node_modules/normalize.css/normalize.css';
+@import './style-settings';
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
-  font-size: $font-size;
   //width: 100vw;
   //height: 250vh;
-  background: url("../assets/images/pattern-bg.png");
+  background: url('../assets/images/pattern-bg.png');
+  font-size: $font-size;
 }
 
 body {
-  font-size: $font-body;
-  font-family: $font-family;
   color: $color-very-dark-gray;
+  font-family: $font-family;
+  font-size: $font-body;
 }

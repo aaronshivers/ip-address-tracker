@@ -1,4 +1,4 @@
-@import "../../styles/style-settings";
+@import '../../styles/style-settings';
 
 .flex {
   display: flex;
@@ -6,8 +6,8 @@
 }
 
 h1 {
-  color: white;
-  font-weight: $font-weight-medium;
+  color: #fff;
   font-size: 3rem;
+  font-weight: $font-weight-medium;
   //text-align: center;
 }

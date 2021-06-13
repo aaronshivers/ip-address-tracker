@@ -1,4 +1,4 @@
-@import "../../styles/style-settings";
+@import '../../styles/style-settings';
 
 form {
   display: flex;
@@ -6,16 +6,16 @@ form {
 }
 
 input {
-  height: 5rem;
   border: none;
-  border-radius: 5px 0 0 5px;
+  border-radius: 1rem 0 0 1rem;
+  height: 5rem;
   padding: 1rem;
 }
 
 button {
   background-color: $color-very-dark-gray;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
   height: 5rem;
   width: 5rem;
-  border: none;
-  border-radius: 0 5px 5px 0;
 }
