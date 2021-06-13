@@ -1,4 +1,4 @@
-@import '../../styles/style-settings';
+@import '../../style-settings';
 
 form {
   display: flex;
@@ -9,10 +9,10 @@ form {
 input {
   border: none;
   border-radius: 1.5rem 0 0 1.5rem;
+  font-size: 2rem;
   height: 6rem;
   padding: 1rem 2.5rem;
   width: 100%;
-  font-size: 2rem;
 }
 
 button {

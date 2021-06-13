@@ -5,7 +5,7 @@ import {
   Popup,
   TileLayer,
 } from 'react-leaflet';
-import '../styles/map.scss';
+import './Map.scss';
 import PropTypes from 'prop-types';
 
 const Map = ({ position }) => (

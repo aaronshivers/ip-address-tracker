@@ -1,5 +1,5 @@
 //@import '../../node_modules/normalize.css/normalize.css';
-@import './style-settings';
+@import 'style-settings';
 
 * {
   box-sizing: border-box;
@@ -10,7 +10,7 @@
 html {
   //width: 100vw;
   //height: 250vh;
-  background: url('../assets/images/pattern-bg.png');
+  background: url('assets/images/pattern-bg.png');
   font-size: $font-size;
 }
 

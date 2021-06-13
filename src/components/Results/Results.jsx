@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import AddressItem from '../AddressItem';
+import Result from '../Result';
+import './Results.scss';
 
 const Results = ({ data }) => {
   const {
@@ -11,10 +12,10 @@ const Results = ({ data }) => {
 
   return (
     <ul>
-      <AddressItem label="ip address" value={ip} />
-      <AddressItem label="location" value={`${city} ${region} ${postalCode}`} />
-      <AddressItem label="timezone" value={timezone} />
-      <AddressItem label="isp" value={isp} />
+      <Result label="ip address" value={ip} />
+      <Result label="location" value={`${city} ${region} ${postalCode}`} />
+      <Result label="timezone" value={timezone} />
+      <Result label="isp" value={isp} />
     </ul>
   );
 };

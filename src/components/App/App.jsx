@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Form from './components/Form';
-import Results from './components/Results';
-import useFetch from './hooks/useFetch';
-import Title from './components/Title';
-import Map from './components/Map';
-import './styles/App.scss';
+import Form from '../Form';
+import Results from '../Results';
+import useFetch from '../../hooks/useFetch';
+import Title from '../Title';
+import Map from '../Map';
+import './App.scss';
 
 const apiKey = 'at_14HxwhGsCePL6iZgTACelttKdz8Mn';
 
