@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import Arrow from '../assets/images/icon-arrow.svg';
-import '../styles/form.scss';
+import Arrow from '../../assets/images/icon-arrow.svg';
+import './Form.scss';
 
 const Form = ({ ipAddress, setIpAddress }) => {
   const [value, setValue] = useState(ipAddress);
@@ -23,7 +23,7 @@ const Form = ({ ipAddress, setIpAddress }) => {
         value={value}
         onChange={onInputChange}
       />
-      <button className="button" type="submit">
+      <button type="submit">
         <Arrow />
       </button>
     </form>

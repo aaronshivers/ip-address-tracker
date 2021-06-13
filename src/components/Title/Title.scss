@@ -1,0 +1,13 @@
+@import "../../styles/style-settings";
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-weight: $font-weight-medium;
+  font-size: 3rem;
+  //text-align: center;
+}
