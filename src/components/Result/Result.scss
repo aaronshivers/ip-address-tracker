@@ -3,24 +3,20 @@
 .result {
   display: flex;
   flex-direction: column;
-  text-align: center;
   padding: 1rem 0;
+  text-align: center;
 }
-
-//.result:first-child {
-//  padding: 2rem 0 0;
-//}
 
 .result--label {
   color: $color-dark-gray;
   font-size: 1.2rem;
   font-weight: $font-weight-bold;
   letter-spacing: 0.1rem;
-  text-transform: uppercase;
   margin: 1rem 0;
+  text-transform: uppercase;
 }
 
 .result--value {
-  font-weight: $font-weight-medium;
   font-size: 2rem;
+  font-weight: $font-weight-medium;
 }

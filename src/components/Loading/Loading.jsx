@@ -7,7 +7,7 @@ const Loading = () => (
   <div className="loading">
     <Loader
       type="Puff"
-      color="#00BFFF"
+      color="#328C0D"
       height={100}
       width={100}
       timeout={3000}
