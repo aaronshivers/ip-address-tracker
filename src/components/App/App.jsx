@@ -5,11 +5,12 @@ import useFetch from '../../hooks/useFetch';
 import Title from '../Title';
 import Map from '../Map';
 import './App.scss';
+import Loading from '../Loading';
 
 const apiKey = 'at_14HxwhGsCePL6iZgTACelttKdz8Mn';
 
 const App = () => {
-  const [ipAddress, setIpAddress] = useState('8.8.8.8');
+  const [ipAddress, setIpAddress] = useState('');
 
   const url = `https://geo.ipify.org/api/v1?apiKey=${apiKey}&ipAddress=${ipAddress}`;
 
@@ -21,7 +22,7 @@ const App = () => {
     <>
       {
         loading ? (
-          <div>Loading...</div>
+          <Loading />
         ) : (
           <>
             <div className="background">
