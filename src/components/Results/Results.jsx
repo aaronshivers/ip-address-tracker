@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import AddressItem from './AddressItem';
+import AddressItem from '../AddressItem';
 
-const Address = ({ data }) => {
+const Results = ({ data }) => {
   const {
     ip, isp, location: {
       city, postalCode, region, timezone,
@@ -19,7 +19,7 @@ const Address = ({ data }) => {
   );
 };
 
-Address.propTypes = {
+Results.propTypes = {
   data: PropTypes.exact({
     ip: PropTypes.string.isRequired,
     isp: PropTypes.string.isRequired,
@@ -32,4 +32,4 @@ Address.propTypes = {
   }).isRequired,
 };
 
-export default Address;
+export default Results;

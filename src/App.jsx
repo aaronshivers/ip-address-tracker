@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Form from './components/Form';
-import Address from './components/Address';
+import Results from './components/Results';
 import useFetch from './hooks/useFetch';
 import Title from './components/Title';
 import Map from './components/Map';
@@ -30,7 +30,7 @@ const App = () => {
                 ipAddress={ipAddress}
                 setIpAddress={setIpAddress}
               />
-              <Address
+              <Results
                 data={{
                   ip: data.ip,
                   isp: data.isp,
