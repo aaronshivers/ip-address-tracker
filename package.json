@@ -40,30 +40,5 @@
     "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-order": "^4.1.0"
-  },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "jest": true
-    },
-    "extends": [
-      "airbnb",
-      "airbnb/hooks"
-    ]
-  },
-  "stylelint": {
-    "extends": [
-      "stylelint-config-standard",
-      "stylelint-config-sass-guidelines"
-    ],
-    "plugins": [
-      "stylelint-order"
-    ],
-    "rules": {
-      "order/order": [
-        "custom-properties",
-        "declarations"
-      ]
-    }
   }
 }

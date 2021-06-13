@@ -1,13 +1,14 @@
 @import '../../styles/style-settings';
 
-.flex {
-  display: flex;
-  justify-content: center;
-}
+//.flex {
+//  display: flex;
+//  justify-content: center;
+//}
 
 h1 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 2.75rem;
   font-weight: $font-weight-medium;
-  //text-align: center;
+  margin: 3rem 0;
+  text-align: center;
 }
